@@ -44,7 +44,8 @@ class InputReader():
             "blade_pitch": float,
             "yaw_angle": float,
             "tilt_angle": float,
-            "TSR": float
+            "TSR": float,
+            "pow_scale": float
         }
 
         self._wake_properties = {
